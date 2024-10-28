@@ -1,0 +1,39 @@
+.items{
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+    width: 100%;
+}
+.mainItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+.card{
+    position: relative;
+}
+.btn{
+    float: right;
+}
+.navbar{
+    list-style-type: none;
+    text-align: center;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size:medium;
+}
+.navbar-item{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media all and (max-width:300px) {
+    .mainItem{
+        width: 100%;
+    }    
+}
