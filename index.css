@@ -31,9 +31,26 @@
     align-items: center;
     justify-content: space-between;
 }
-
-@media all and (max-width:300px) {
-    .mainItem{
-        width: 100%;
-    }    
+.footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .ul-list {
+    list-style-type: none;
+  }
+  .foot-copy{
+    display: flex;
+    justify-content: center;
+  }
+.p-2{
+  border-radius: 20px;
 }
+
